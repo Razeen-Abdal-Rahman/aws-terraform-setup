@@ -1,4 +1,4 @@
-resource "aws_budgets_budget" "100_usd" {
+resource "aws_budgets_budget" "max_spend" {
   name        = "100 dollar budget"
   budget_type = "COST"
   time_unit   = "MONTHLY"
