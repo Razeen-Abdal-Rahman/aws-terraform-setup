@@ -9,5 +9,5 @@ terraform {
 
 provider "aws" {
   region = "eu-west-1"
-  profile = "demo"      #add profile name from .aws/credentails file (configured when setting up aws cli)
+  profile = var.profile
 }
